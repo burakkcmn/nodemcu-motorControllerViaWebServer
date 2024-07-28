@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ESP IOT DASHBOARD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <script src="https://kit.fontawesome.com/0294e3a09e.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="topnav">
+        <h1>CONTROL DC MOTOR</h1>
+    </div>
+    <div class="content">
+        <div class="card-grid">
+            <div class="card">
+                <p class="card-title"><i class="fa-solid fa-gear"></i> DC Motor A</p>
+                <p>
+                    <button id="forward" class="button-on" onclick="controlMotor('forward')"><i
+                            class="fa-solid fa-arrow-up"></i> FORWARD</button>
+                    <button id="backward" class="button-off" onclick="controlMotor('backward')"><i
+                            class="fa-solid fa-arrow-down"></i> BACKWARD</button>
+                </p>
+                <p>
+                    <button id="stop" class="button-stop" onclick="controlMotor('stop')"><i
+                            class="fa-solid fa-stop"></i> STOP</button>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
