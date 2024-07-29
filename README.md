@@ -32,7 +32,7 @@ This project demonstrates how to control a DC motor using an ESP8266 microcontro
 1. Clone the repository:
 ```sh
 git clone https://github.com/burakkcmn/nodemcu-motorControllerViaWebServer.git
-cd ESP8266-DC-Motor-Control
+cd nodemcu-motorControllerViaWebServer
 ```
 2. Open the project in Arduino IDE.
 3. Install required libraries:
